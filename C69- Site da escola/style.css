@@ -1,0 +1,39 @@
+*{
+    padding: none;
+    margin: none;
+}
+
+body {
+    background: linear-gradient(rgb(255, 255, 255), rgb(233, 233, 233));
+    background-attachment: fixed;
+}
+
+#video {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+.menu {
+    z-index: 10;
+    position: fixed;
+    list-style: none;
+    padding: 0;
+    background: rgba(22, 22, 22, 0.978);
+    width: 17%;
+    padding: 10px;
+    border-radius: 5px;
+}  
+
+.mn {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    transition: background .4s;
+}
+
+.mn:hover {
+    background-color: rgb(110, 110, 110);
+    color: rgb(255, 255, 255);
+}
